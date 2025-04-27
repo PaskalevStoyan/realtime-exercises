@@ -13,7 +13,7 @@ const getMsgs = () => Array.from(msg).reverse();
 msg.push({
   user: "brian?",
   text: "hi",
-  time: Date.now(),
+  time: Date.now(), 
 });
 
 // openssl req -new -newkey rsa:2048 -new -nodes -keyout key.pem -out csr.pem
